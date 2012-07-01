@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: tenancy_db
+  username: thiago
+  password:
+  host: localhost
+  
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: tenancy_db
+  username: thiago
+  password:
+  host: localhost
+  
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: tenancy_db
+  username: thiago
+  password:
+  host: localhost
