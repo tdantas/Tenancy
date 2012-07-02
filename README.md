@@ -2,9 +2,9 @@
 
 There are , basically, 3 types to create an multi-tenant application.  
 
-  *Same Database and shared 'namespace' to all tenants   
+  * Same Database and shared 'namespace' to all tenants   
   * **Same Database with distinct 'namespace' to every tenants**        
-  *Database per Tenant   
+  * Database per Tenant   
 
 This example will show you the second approach.   
 Using Distinct 'namespace', instead of use tenant_id in every database column ( IMHO isn´t appropriate to a nice SaaS product ), every client will have your own database schema.   
