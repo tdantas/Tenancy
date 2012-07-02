@@ -1,6 +1,7 @@
 # Tenancy
 
 There are , basically, 3 types to create an multi-tenant application.  
+
   *Same Database and shared 'namespace' to all tenants   
   * **Same Database with distinct 'namespace' to every tenants**        
   *Database per Tenant   
@@ -12,9 +13,9 @@ Using Distinct 'namespace', instead of use tenant_id in every database column ( 
 ## Installation  
 
 To continue, your machine must have installed the [POSTGRESQL](http://www.postgresql.org/)
+Install [Bundler] (http://gembundler.com/)   
 
 ```
-Install [Bundler] (http://gembundler.com/)   
 git clone git://github.com/tdantas/Tenancy.git   
 bundle install   
 update *config/database.yml* username and password   
