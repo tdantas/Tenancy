@@ -42,7 +42,7 @@ rails s
 ```
 
 
-# WHERE IS THE CODE ?
+## Where is the code ?
 
 The code is embedded in the lib/tenantable folder   
 There are two modules: *model.rb and controller.rb*
