@@ -12,8 +12,7 @@ Using Distinct 'namespace', instead of use tenant_id in every database column ( 
 
 ## Installation  
 
-To continue, your machine must have installed the [POSTGRESQL](http://www.postgresql.org/)
-Install [Bundler] (http://gembundler.com/)   
+To continue, your machine must have installed the [POSTGRESQL](http://www.postgresql.org/) and  [Bundler] (http://gembundler.com/)   
 
 ```
 git clone git://github.com/tdantas/Tenancy.git   
