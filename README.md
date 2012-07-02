@@ -18,11 +18,26 @@ To continue, your machine must have installed the [POSTGRESQL](http://www.postgr
 git clone git://github.com/tdantas/Tenancy.git   
 bundle install
 ```   
-Update config/database.yml username and password    
+Update config/database.yml username and password 
 
-````
+```
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: tenancy_db
+  username: YOUR_USER_HERE
+  password: YOUR_PASSWORD_HERE
+  host: localhost
+```   
+
+Create the Database and migrate before run
+```
 rake db:create   
 rake db:migrate   
+```
+And now, ARE YOU READY ??
+
+```
 rails s   
 ```
 
