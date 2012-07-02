@@ -1,5 +1,6 @@
 # Tenancy
 
+
 There are , basically, 3 types to create an multi-tenant application.  
 
   * Same Database and shared 'namespace' to all tenants *Use tenant_id in every column to identify the  client data*_  
@@ -41,7 +42,6 @@ And now, **Ready ??**
 rails s   
 ```
 
-
 ## Where is the code ?
 
 The code is embedded in the lib/tenantable folder   
@@ -51,13 +51,12 @@ The *Account* model will work like a *tenant switcher* (I don´t know the correc
 The *ApplicationController* will setup the correct schema for every request, based on the User Account.
 
 
-> Feel free to update/destroy/use the code.    
-> If you find any problem, performance issue or what-not, tell me what should I have done to avoid it. 
-> **And don´t forget, if you have any suggestion/changes, tell me, They're all welcome**
-  
-
-
 ### Contacts
+
+Feel free to update/destroy/use the code.     
+If you find any problem, performance issue or what-not, tell me what should I have done to avoid it.      
+**And don´t forget, if you have any suggestion/changes, tell me, They're all welcome**
+
 email: thiago.teixeira.dantas@gmail.com   
 gtalk: thiagochapa@gmail.com
 
