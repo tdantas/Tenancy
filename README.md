@@ -55,7 +55,7 @@ The *ApplicationController* will setup the correct schema for every request, bas
 
 Feel free to update/destroy/use the code.     
 If you find any problem, performance issue or what-not, tell me what should I have done to avoid it.      
-And don´t forget, if you have any suggestion/changes, tell me !  ** They're ALL welcome **
+And don´t forget, if you have any suggestion/changes, tell me !  **They're ALL welcome**
 
 email: thiago.teixeira.dantas@gmail.com   
 gtalk: thiagochapa@gmail.com
