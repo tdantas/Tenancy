@@ -41,6 +41,20 @@ And now, **Ready ??**
 rails s   
 ```
 
+
+# WHERE IS THE CODE ?
+
+The code is embedded in the lib/tenantable folder   
+There are two modules: *model.rb and controller.rb*
+
+In this application, the Account model will work like a *tenant switcher* (I don´t know the correct way to say this).   
+The ApplicationController will setup the correct schema for every request , based on the User Account.
+
+
+
+
 ### Contacts
 email: thiago.teixeira.dantas@gmail.com   
 gtalk: thiagochapa@gmail.com
+
+
