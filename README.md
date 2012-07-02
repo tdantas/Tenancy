@@ -42,5 +42,5 @@ rails s
 ```
 
 ### Contacts
-email: thiago.teixeira.dantas@gmail.com
+email: thiago.teixeira.dantas@gmail.com   
 gtalk: thiagochapa@gmail.com
