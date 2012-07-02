@@ -35,9 +35,12 @@ Create the Database and migrate before run
 rake db:create   
 rake db:migrate   
 ```
-And now, ARE YOU READY ??
+And now, **Ready ??**
 
 ```
 rails s   
 ```
 
+### Contacts
+email: thiago.teixeira.dantas@gmail.com
+gtalk: thiagochapa@gmail.com
