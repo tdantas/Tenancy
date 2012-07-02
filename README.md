@@ -3,7 +3,7 @@
 
 There are , basically, 3 types to create an multi-tenant application.  
 
-  * Same Database and shared 'namespace' to all tenants (*Using tenant_id in every column to identify the  client data*)  
+  * Same Database and shared 'namespace' to all tenants (*Using tenant_id in every table to identify the client data*)  
   * **Same Database with distinct 'namespace' to every tenants** (*Using Database schema*)       
   * Database per Tenant (*Every Tenant will provisioning your all database)   
 
