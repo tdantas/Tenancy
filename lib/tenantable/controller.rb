@@ -3,10 +3,6 @@ module Tenantable
   module Controller
     extend ActiveSupport::Concern
 
-    included do
-      before_filter :setup_schema
-    end
-
     module ClassMethods
       def use_public_schema_for(*models)
         models.each do | m |
@@ -16,9 +12,9 @@ module Tenantable
       end
     end
 
-    module IntanceMethods
+    module InstanceMethods
       def setup_schema(include_public = true)
-        ActiveRecord::Base.connection.schema_search_path = [self.schema, ("public" if include_public)].compact.join(",")
+        ActiveRecord::Base.connection.schema_search_path = [current_schema, ("public" if include_public)].compact.join(",")
       end
     end
 
