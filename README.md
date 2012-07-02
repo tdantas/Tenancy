@@ -47,8 +47,8 @@ rails s
 The code is embedded in the lib/tenantable folder   
 There are two modules: *model.rb and controller.rb*
 
-In this application, the Account model will work like a *tenant switcher* (I don´t know the correct way to say this).   
-The ApplicationController will setup the correct schema for every request , based on the User Account.
+In this application, the *Account* model will work like a *tenant switcher* (I don´t know the correct way to say this).   
+The *ApplicationController* will setup the correct schema for every request, based on the User Account.
 
 
 
