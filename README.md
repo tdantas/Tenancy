@@ -47,9 +47,11 @@ bundle exec rails s
 Better than try to explain the code, clone this repository and look close to:
 
 ApplicationController
+
     responsibility: Change the schema context between requests.
   
 Account
+
     responsibility: The model that will contain the schema.
     
 
