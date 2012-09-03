@@ -39,23 +39,20 @@ rake db:migrate
 And now, **Ready ??**
 
 ```
-rails s   
+bundle exec rails s   
 ```
 
 ## Where is the code ?
 
-The code is embedded in the lib/tenantable folder   
-There are two modules: *model.rb and controller.rb*
+Better than try to explain the code, clone this repository and look close to:
 
-The *Account* model will work like a *tenant switcher* (I don´t know the correct way to say this).   
-The *ApplicationController* will setup the correct schema for every request, based on the User Account.
+ApplicationController
+    responsibility: Change the schema context between requests.
+  
+Account
+    responsibility: The model that will contain the schema.
+    
 
-
-### Contacts
-
-Feel free to update/destroy/use the code.     
-If you find any problem, performance issue or what-not, tell me what should I have done to avoid it.      
-And don´t forget, if you have any suggestion/changes, tell me !  **They're ALL welcome**
 
 email: thiago.teixeira.dantas@gmail.com   
 gtalk: thiagochapa@gmail.com
